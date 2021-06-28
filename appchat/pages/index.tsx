@@ -2,6 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+/**
+ * !js -> ts: if you use typescript
+ * !jsx -> tsx
+ */
+
 export default function Home() {
   return (
     <div className={styles.container}>
